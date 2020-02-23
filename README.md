@@ -47,3 +47,6 @@ export const CounterHook = () => {
   </>;
 }
 ```
+#### 53:40
+State hooks and objects
+- Updating the state hook object is similiar to updating a tradation component instance state object except all of the state hook's object properties must be copied into the update ( it does not do a merge of properties like setState does)
